@@ -1,0 +1,25 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: cornflowerblue;
+  text-align: justify;
+}
+
+header {
+  color: brown;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: medium;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: double;
+  text-decoration-color: darkkhaki;
+  color: salmon;
+}
+
+p {
+  font-style: oblique;
+  color: black;
+}
