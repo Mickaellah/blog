@@ -1,0 +1,38 @@
+@charset "UTF-8";
+* {
+  text-align: center;
+}
+body {
+  font-family: sans-serif;
+  font-size: 100%;
+  margin: 0;
+  max-width: 30rem;
+}
+
+header {
+  color:darkblue;
+}
+
+h2 {
+  color:forestgreen
+}
+
+footer {
+color: #333;
+}
+
+footer a {
+display: inline-block;
+padding: .5rem 1rem;
+color: #fff;
+background-color: #366;
+border-radius: .25rem;
+font-weight: 700;
+text-decoration: none;
+transform: scale(1);
+transition: transform .1s ease-out;
+}
+
+footer a:hover {
+transform: scale(1.1);
+}
