@@ -1,0 +1,52 @@
+@charset "UTF-8";
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: ;
+}
+body {
+  font-size: 100%;
+  margin: 0;
+  max-width: 30rem;background-image: url("../images/baby.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:darkblue;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color:forestgreen
+}
+
+main a {
+  text-decoration: none;
+  color: deeppink;
+}
+
+footer {
+  text-align: end;
+}
+
+footer a {
+display: inline-block;
+padding: .5rem 1rem;
+color: #fff;
+background-color: aqua;
+border-radius: .25rem;
+font-weight: 700;
+text-decoration: none;
+}
+
+footer a:hover {
+transform: scale(1.1);
+transition: transform .1s ease-out;
+}
